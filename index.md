@@ -2,7 +2,7 @@
 
 Hi, I'm Ryan Brue! This is my site!
 
-Nothing fancy, just plain text, maybe the occasional image. I wrote the [site generator](https://github.com/ryanabx/djot-ssg) myself.
+![Profile image](https://avatars.githubusercontent.com/u/56272643?v=4)
 
 ### My links
 
@@ -12,7 +12,7 @@ Nothing fancy, just plain text, maybe the occasional image. I wrote the [site ge
 
 ### Blog posts
 
-[First post](blog-posts/2024-08-20-first-blog.dj)
+[First post](blog-posts/2024-08-20-first-blog.md)
 
 ### Who am I?
 
@@ -26,21 +26,14 @@ Contributing to COSMIC also got me into the Rust programming language, which is 
 
 - [A wayland compositor agnostic desktop shell](https://codeberg.org/ryanabx/ryanabx-shell)
 - Linux packaging adjacent tools
-
   - Flatpak stuff
-
     - [A tool to run flatpaks without installing them](https://github.com/linux-packaging-rs/flatpak-ext-tools)
   - Appimage stuff
-
     - [An (unfinished) squashfs fuse implementation in rust](https://github.com/linux-packaging-rs/squashfuse-rs)
     - [An (also unfinished) reimplementation ofthe appimage type2 runtime in rust](https://github.com/linux-packaging-rs/appimage-type2-runtime-rs)
 - Djot tools
-
   - [A visual studio code extension for the Djot markup language](https://github.com/ryanabx/djot-vscode)
   - [A static site generator for the Djot markup language](https://github.com/ryanabx/djot-ssg)
-
-### Why not use Wordpress?
-
-Because, I wrote the [site generator](https://github.com/ryanabx/djot-ssg) myself. Did I mention I wrote the [site generator](https://github.com/ryanabx/djot-ssg) myself?
-
-I would use wordpress, but it's more fun to me to use something that I created, and write in a new hip and cool [markup format](https://github.com/jgm/djot) I found the other day. Who knows if I'll ever be satisfied with trying out random new things.
+- Random VSCode stuff
+  - [Godot visual studio code theme](https://github.com/ryanabx/godot-vscode-theme)
+  - [Faded prism theme (My primary theme of choice)](https://github.com/ryanabx/faded-prism-theme)

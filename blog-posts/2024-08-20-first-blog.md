@@ -1,4 +1,4 @@
-[Return to main page](../index.dj)
+[Return to main page](../index.md)
 
 ## 2024-08-20 - My first blog post
 
