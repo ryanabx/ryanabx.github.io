@@ -1,6 +1,6 @@
 # Ryan Brue (ryanabx)
 
-Hi, I'm Ryan Brue! This is my site!
+Hi, I'm Ryan Brue! This is my site! I wrote the [Site Generator](https://github.com/ryanabx/simple-ssg) myself. It's nothing much, but it generally gets the job done!
 
 ![Profile image](https://avatars.githubusercontent.com/u/56272643?v=4)
 
@@ -33,7 +33,7 @@ Contributing to COSMIC also got me into the Rust programming language, which is 
     - [An (also unfinished) reimplementation ofthe appimage type2 runtime in rust](https://github.com/linux-packaging-rs/appimage-type2-runtime-rs)
 - Djot tools
   - [A visual studio code extension for the Djot markup language](https://github.com/ryanabx/djot-vscode)
-  - [A static site generator for the Djot markup language](https://github.com/ryanabx/djot-ssg)
+  - [A static site generator for the Djot markup language](https://github.com/ryanabx/simple-ssg)
 - Random VSCode stuff
   - [Godot visual studio code theme](https://github.com/ryanabx/godot-vscode-theme)
   - [Faded prism theme (My primary theme of choice)](https://github.com/ryanabx/faded-prism-theme)
