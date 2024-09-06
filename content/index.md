@@ -2,8 +2,6 @@
 
 Hi, I'm Ryan Brue! This is my site! I wrote the [Site Generator](https://github.com/ryanabx/simple-ssg) myself. It's nothing much, but it generally gets the job done!
 
-![Profile image](https://avatars.githubusercontent.com/u/56272643?v=4)
-
 ### My links
 
 - [Mastodon](https://mastodon.social/@ryanabx)
@@ -37,3 +35,6 @@ Contributing to COSMIC also got me into the Rust programming language, which is 
 - Random VSCode stuff
   - [Godot visual studio code theme](https://github.com/ryanabx/godot-vscode-theme)
   - [Faded prism theme (My primary theme of choice)](https://github.com/ryanabx/faded-prism-theme)
+
+
+![Profile image](https://avatars.githubusercontent.com/u/56272643?v=4)

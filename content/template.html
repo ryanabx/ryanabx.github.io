@@ -1239,14 +1239,30 @@
       padding-top: 2%;
       padding-bottom: 2%;
     }
+
+    .outer-content {
+      background-color: #161b22;
+      color: lightgray;
+    }
+
+    .inner-border {
+      outline: lightgray;
+      outline-width: 5px;
+    }
   </style>
 </head>
 
-<body class="markdown-body">
+<body class="outer-content markdown-body">
   <h3>Contents:</h3>
   <!-- {TABLE_OF_CONTENTS} -->
   <hr>
-  <!-- {CONTENT} -->
+  <div class="inner-border">
+    <div class="markdown-body">
+      <!-- {CONTENT} -->
+    </div>
+  </div>
+  <hr>
+
 </body>
 
 </html>
