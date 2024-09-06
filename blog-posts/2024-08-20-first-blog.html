@@ -1239,17 +1239,33 @@
       padding-top: 2%;
       padding-bottom: 2%;
     }
+
+    .outer-content {
+      background-color: #161b22;
+      color: lightgray;
+    }
+
+    .inner-border {
+      outline: lightgray;
+      outline-width: 5px;
+    }
   </style>
 </head>
 
-<body class="markdown-body">
+<body class="outer-content markdown-body">
   <h3>Contents:</h3>
   <ul><li><a href="../index.html">index</a></li><li><b><u>blog-posts:</u></b></li><ul><li><b>2024-08-20-first-blog</b></li></ul></ul>
   <hr>
-  <p><a href="../index.html">Return to main page</a></p>
+  <div class="inner-border">
+    <div class="markdown-body">
+      <p><a href="../index.html">Return to main page</a></p>
 <h2>2024-08-20 - My first blog post</h2>
 <p>After writing a <a href="https://github.com/ryanabx/simple-ssg">static site generator</a>, I decided that maybe it's finally time for me to make a blog, mainly about development!</p>
 <p>This first post is just going to be a hello!</p>
+
+    </div>
+  </div>
+  <hr>
 
 </body>
 

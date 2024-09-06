@@ -1239,16 +1239,27 @@
       padding-top: 2%;
       padding-bottom: 2%;
     }
+
+    .outer-content {
+      background-color: #161b22;
+      color: lightgray;
+    }
+
+    .inner-border {
+      outline: lightgray;
+      outline-width: 5px;
+    }
   </style>
 </head>
 
-<body class="markdown-body">
+<body class="outer-content markdown-body">
   <h3>Contents:</h3>
   <ul><li><b>index</b></li><li><b><u>blog-posts:</u></b></li><ul><li><a href="blog-posts/2024-08-20-first-blog.html">2024-08-20-first-blog</a></li></ul></ul>
   <hr>
-  <h1>Ryan Brue (ryanabx)</h1>
+  <div class="inner-border">
+    <div class="markdown-body">
+      <h1>Ryan Brue (ryanabx)</h1>
 <p>Hi, I'm Ryan Brue! This is my site! I wrote the <a href="https://github.com/ryanabx/simple-ssg">Site Generator</a> myself. It's nothing much, but it generally gets the job done!</p>
-<p><img src="https://avatars.githubusercontent.com/u/56272643?v=4" alt="Profile image" /></p>
 <h3>My links</h3>
 <ul>
 <li><a href="https://mastodon.social/@ryanabx">Mastodon</a></li>
@@ -1292,6 +1303,11 @@
 </ul>
 </li>
 </ul>
+<p><img src="https://avatars.githubusercontent.com/u/56272643?v=4" alt="Profile image" /></p>
+
+    </div>
+  </div>
+  <hr>
 
 </body>
 
