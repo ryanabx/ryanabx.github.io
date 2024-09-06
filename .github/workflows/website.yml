@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master  # Run the action on pushes to the main branch
+      - main  # Run the action on pushes to the main branch
 
 jobs:
   build:
