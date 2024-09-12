@@ -1,16 +1,23 @@
-# Ryan Brue (ryanabx)
++++
+title = 'My First Post'
+date = 2024-08-20T18:31:29-05:00
+draft = false
++++
 
-Hi, I'm Ryan Brue! This is my site! I wrote the [Site Generator](https://github.com/ryanabx/simple-ssg) myself. It's nothing much, but it generally gets the job done!
+## 2024-08-20 - My first blog post
+
+After writing a [static site generator](https://github.com/ryanabx/simple-ssg), I decided that maybe it's finally time for me to make a blog, mainly about development!
+
+This first post is just going to be a hello!
+
+
+> **EDIT (September 12, 2024):** I am now using [Hugo](https://gohugo.io/getting-started/quick-start/) as my static site generator. Nothing wrong with my old one, I just wanted a site that was mobile friendly.
 
 ### My links
 
 - [Mastodon](https://mastodon.social/@ryanabx)
 - [GitHub](https://github.com/ryanabx)
 - [Linkedin](https://www.linkedin.com/in/ryanbrue/)
-
-### Blog posts
-
-[First post](blog-posts/2024-08-20-first-blog.md)
 
 ### Who am I?
 

@@ -1,3 +1,9 @@
++++
+title = 'Trying out a Fedora base image for a week'
+date = 2024-09-12T18:30:10-05:00
+draft = true
++++
+
 # Using a Fedora atomic base image for a week
 
 I decided this unmomentous occasion is something I'd like to document, to talk about where the atomic experience could be better, and where it really shines!
@@ -171,3 +177,7 @@ podman run --rm --privileged -v /dev:/dev -v /var/lib/containers:/var/lib/contai
 ```
 
 I'm a little nervous to try this, but I'm going to try it out.
+
+## Day 1 Evening
+
+Do not, I repeat. DO NOT try what I tried, if you have a 
