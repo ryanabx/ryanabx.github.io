@@ -158,3 +158,16 @@ systemctl reboot
 sudo dnf install bootc
 sudo bootc switch ghcr.io/ryanabx/kde-bootc:latest
 ```
+
+The first try didn't work out, all I got was a single underscore in the top left corner, couldn't even enter a TTY.
+
+I checked the bootc documentation and found this from [this section](https://containers.github.io/bootc/bootc-install.html#using-bootc-install-to-existing-root):
+
+```
+podman run --rm --privileged -v /dev:/dev -v /var/lib/containers:/var/lib/containers -v /:/target \
+             --pid=host --security-opt label=type:unconfined_t \
+             <image> \
+             bootc install to-existing-root
+```
+
+I'm a little nervous to try this, but I'm going to try it out.
