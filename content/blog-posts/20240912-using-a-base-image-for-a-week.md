@@ -124,4 +124,37 @@ I'm happy to be a part of circles where I can witness nuanced discussion about d
 
 My likely botched interpretation of what he said (similar to Neal):
 
+- On the topic of local customization, Timothee says that `rpm-ostree` has multiple mechanisms for local customization and that `systemd-sysext` should covert that ground as well in the future.
+- On the topic of systems not being able to outlive their original lifetime, he says he doesn't know how a Kinoite system would have a different lifetime than a Fedora KDE installation.
+  - He says that the lifetime problem on Android and Chromebook devices doesn't come from the fact that they are immutable, but rather from the fact that they are secure, thus you have to have the keys or disable signature checks to change what's on them if the manufacturer doesn't produce updates.
+- Regarding this quote from Neal:
+  
+  > one of the "escape hatch" things we have with the current model is that we don't have to have a solution for everyone out of the box, people can change the system to suit their needs
 
+  Timothee says:
+
+  > This is exactly why we're making bootc. Everyone will be able to customize the system to feet their needs while keeping the benefits of image based systems
+
+  I should add that `bootc` is very exciting to me, as an alternative to `rpm-ostree`'s model of customization.
+- In response to this from Neal:
+
+  > Anything premount of theoretical writable overlays is screwed
+
+  Timothee says:
+
+  > You can change the content of the initramfs with rpm-ostree and with bootc you'll be able to directly install customized images like that, and with kiwi support generate ISO/disk images
+
+The discussion leaves me with seeing the pros and cons of image-based systems, but also leaves me more excited than ever for the [bootc project](https://github.com/containers/bootc). As a bonus, it's written in rust, which if you know me rust is my favorite language.
+
+## Bootc Try-out?
+
+Speaking of bootc, I'd like to give bootc a try. I've created a minimal base image [here](https://github.com/ryanabx/ryanabx-containers/tree/main/kde-bootc/Containerfile). All it does is take the base image and install the KDE plasma desktop on top of it. How hard would it be to migrate my existing system to bootc? Let's find out.
+
+My first attempt is going to be simply installing bootc and running `bootc switch` to switch to the new image. I have no idea if this will work, but let's see!
+
+```
+sudo rpm-ostree install bootc
+systemctl reboot
+sudo dnf install bootc
+sudo bootc switch ghcr.io/ryanabx/kde-bootc:latest
+```
