@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ryan Brue's Website</title><link>https://ryanabx.github.io/</link><description>Recent content on Ryan Brue's Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 20 Aug 2024 18:31:29 -0500</lastBuildDate><atom:link href="https://ryanabx.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Post</title><link>https://ryanabx.github.io/posts/20240820-my-first-post/</link><pubDate>Tue, 20 Aug 2024 18:31:29 -0500</pubDate><guid>https://ryanabx.github.io/posts/20240820-my-first-post/</guid><description>2024-08-20 - My first blog post After writing a static site generator, I decided that maybe it&amp;rsquo;s finally time for me to make a blog, mainly about development!
-This first post is just going to be a hello!
-EDIT (September 12, 2024): I am now using Hugo as my static site generator. Nothing wrong with my old one, I just wanted a site that was mobile friendly.
-My links Mastodon GitHub Linkedin Who am I?</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ryan Brue's Website</title><link>/</link><description>Ryan Brue's Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 20 Aug 2024 18:31:29 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Post</title><link>/posts/20240820-my-first-post/</link><pubDate>Tue, 20 Aug 2024 18:31:29 -0500</pubDate><guid>/posts/20240820-my-first-post/</guid><description>&lt;h2 id="2024-08-20---my-first-blog-post" >
+&lt;div>
+&lt;a href="#2024-08-20---my-first-blog-post">
+#
+&lt;/a>
+2024-08-20 - My first blog post
+&lt;/div>
+&lt;/h2>
+&lt;p>After writing a &lt;a href="https://github.com/ryanabx/simple-ssg">static site generator&lt;/a>, I decided that maybe it&amp;rsquo;s finally time for me to make a blog, mainly about development!&lt;/p>
+&lt;p>This first post is just going to be a hello!&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>EDIT (September 12, 2024):&lt;/strong> I am now using &lt;a href="https://gohugo.io/getting-started/quick-start/">Hugo&lt;/a> as my static site generator. Nothing wrong with my old one, I just wanted a site that was mobile friendly.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="my-links" >
+&lt;div>
+&lt;a href="#my-links">
+##
+&lt;/a>
+My links
+&lt;/div>
+&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://mastodon.social/@ryanabx">Mastodon&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ryanabx">GitHub&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/in/ryanbrue/">Linkedin&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="who-am-i" >
+&lt;div>
+&lt;a href="#who-am-i">
+##
+&lt;/a>
+Who am I?
+&lt;/div>
+&lt;/h3>
+&lt;p>I&amp;rsquo;m in my 20s, and I&amp;rsquo;m a software developer at my day job. I really enjoy learning things outside my job though, and that includes learning new things in the software realm as well. In the summer of 2023, I started contributing to the &lt;a href="https://godotengine.org">Godot Engine&lt;/a>, and that was my first introduction into the world of open source software. In October of 2023, I made the logical next step most open source fans take and installed Linux on my main PC.&lt;/p>
+&lt;p>From there, I started contributing to anything that seemed interesting to me, including most notably the &lt;a href="https://system76.com/cosmic">COSMIC Desktop Environment&lt;/a> (&lt;a href="https://github.com/pop-os">GitHub repos for COSMIC here&lt;/a>)&lt;/p>
+&lt;p>Contributing to COSMIC also got me into the Rust programming language, which is now my language of choice for most of my personal projects. Speaking of personal projects&amp;hellip;&lt;/p>
+&lt;h3 id="some-of-my-more-recent-software-projects" >
+&lt;div>
+&lt;a href="#some-of-my-more-recent-software-projects">
+##
+&lt;/a>
+Some of my more recent software projects
+&lt;/div>
+&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://codeberg.org/ryanabx/ryanabx-shell">A wayland compositor agnostic desktop shell&lt;/a>&lt;/li>
+&lt;li>Linux packaging adjacent tools
+&lt;ul>
+&lt;li>Flatpak stuff
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/linux-packaging-rs/flatpak-ext-tools">A tool to run flatpaks without installing them&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Appimage stuff
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/linux-packaging-rs/squashfuse-rs">An (unfinished) squashfs fuse implementation in rust&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/linux-packaging-rs/appimage-type2-runtime-rs">An (also unfinished) reimplementation ofthe appimage type2 runtime in rust&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Djot tools
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/ryanabx/djot-vscode">A visual studio code extension for the Djot markup language&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ryanabx/simple-ssg">A static site generator for the Djot markup language&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Random VSCode stuff
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/ryanabx/godot-vscode-theme">Godot visual studio code theme&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ryanabx/faded-prism-theme">Faded prism theme (My primary theme of choice)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://avatars.githubusercontent.com/u/56272643?v=4" alt="Profile image">&lt;/p></description></item></channel></rss>
