@@ -180,4 +180,11 @@ I'm a little nervous to try this, but I'm going to try it out.
 
 ## Day 1 Evening
 
-Do not, I repeat. DO NOT try what I tried, if you have a 
+Do not, I repeat. DO NOT try what I tried, if you have an existing rpm-ostree system, running the above command will **delete your `/boot` directory**.
+
+I've been spending all afternoon/evening fixing my laptop, and I wasn't able to recover my `/home` directory. That was partly my fault as I tried again to install the system like I did, but with a fedora base system. At this point I'm now starting fresh with [bootc-image-builder](https://github.com/osbuild/bootc-image-builder). It's unfortunate that the migration story isn't fully fledged out yet, but it's expected as bootc is alpha grade software.
+
+I'll end up having a bootc deployment, but I will have to be careful about my `/home` directory in the future.
+
+Luckily I have a second PC which I'm running `bootc-image-builder` from, but if you don't, good luck! (Or just don't mess up your original pc like I did)
+
