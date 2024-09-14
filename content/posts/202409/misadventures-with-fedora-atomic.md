@@ -1,10 +1,10 @@
 +++
-title = 'Trying out a Fedora base image for a week'
-date = 2024-09-12T18:30:10-05:00
-draft = true
+title = 'Misadventures with Fedora Atomic'
+date = 2024-09-14T18:30:10-05:00
+draft = false
 +++
 
-# Using a Fedora atomic base image for a week
+# ~~Using a Fedora atomic base image for a week~~ Nevermind, using a base image for a few days and then giving up lol
 
 I decided this unmomentous occasion is something I'd like to document, to talk about where the atomic experience could be better, and where it really shines!
 
@@ -195,3 +195,7 @@ I spent most of day 2 at work, but other than that, I did create a GitHub action
 I got the ISO to build successfully, and then I created a systemd service that preinstalls flatpaks for me, I am still trying to get that build to work, but every CI run takes several minutes for the failure to be registered.
 
 [See my preinstall-flatpaks program here](https://github.com/ryanabx/ryanabx-containers/tree/main/preinstall-flatpaks)
+
+## Night 2
+
+I decided to move all my installations to base fedora again, no atomic. Linux users and wiping their system to install new things go hand in hand.
