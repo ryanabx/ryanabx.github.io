@@ -7,6 +7,8 @@ This first post is just going to be a hello!
 
 > **EDIT (September 12, 2024):** I am now using [Hugo](https://gohugo.io/getting-started/quick-start/) as my static site generator. Nothing wrong with my old one, I just wanted a site that was mobile friendly.
 
+> **EDIT (September 14, 2024):** I'm now using [mdBook](https://github.com/rust-lang/mdBook) instead of hugo. It's even more simple than Hugo, and it just works like I'd want it to.
+
 ### My links
 
 - [Mastodon](https://mastodon.social/@ryanabx)
