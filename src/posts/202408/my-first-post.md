@@ -1,9 +1,3 @@
-+++
-title = 'My First Post'
-date = 2024-08-20T18:31:29-05:00
-draft = false
-+++
-
 ## 2024-08-20 - My first blog post
 
 After writing a [static site generator](https://github.com/ryanabx/simple-ssg), I decided that maybe it's finally time for me to make a blog, mainly about development!
