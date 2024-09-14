@@ -188,3 +188,10 @@ I'll end up having a bootc deployment, but I will have to be careful about my `/
 
 Luckily I have a second PC which I'm running `bootc-image-builder` from, but if you don't, good luck! (Or just don't mess up your original pc like I did)
 
+## Day 2
+
+I spent most of day 2 at work, but other than that, I did create a GitHub action to automatically build my bootable container image as an ISO: [See here](https://github.com/ryanabx/ryanabx-containers/blob/main/.github/workflows/ryanabx-bootc.yml)
+
+I got the ISO to build successfully, and then I created a systemd service that preinstalls flatpaks for me, I am still trying to get that build to work, but every CI run takes several minutes for the failure to be registered.
+
+[See my preinstall-flatpaks program here](https://github.com/ryanabx/ryanabx-containers/tree/main/preinstall-flatpaks)
