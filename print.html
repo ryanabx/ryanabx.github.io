@@ -83,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Posts</li><li class="chapter-item expanded "><a href="posts/202408/my-first-post.html"><strong aria-hidden="true">2.</strong> August 20, 2024: My first post!</a></li><li class="chapter-item expanded "><a href="posts/202409/misadventures-with-fedora-atomic.html"><strong aria-hidden="true">3.</strong> September 14, 2024: Misadventures with Fedora Atomic!</a></li></ol>            </div>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Posts</li><li class="chapter-item expanded "><a href="posts/202408/my-first-post.html"><strong aria-hidden="true">2.</strong> August 20, 2024: My first post!</a></li><li class="chapter-item expanded "><a href="posts/202409/misadventures-with-fedora-atomic.html"><strong aria-hidden="true">3.</strong> September 14, 2024: Misadventures with Fedora Atomic!</a></li><li class="chapter-item expanded affix "><li class="part-title">Issue Tracker / Wishlist</li><li class="chapter-item expanded "><a href="wishlist/index.html"><strong aria-hidden="true">4.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="wishlist/cosmic.html"><strong aria-hidden="true">5.</strong> COSMIC Wishlist</a></li></ol>            </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
@@ -353,6 +353,82 @@ sudo bootc switch ghcr.io/ryanabx/kde-bootc:latest
 <p><a href="https://github.com/ryanabx/ryanabx-containers/tree/main/preinstall-flatpaks">See my preinstall-flatpaks program here</a></p>
 <h2 id="night-2"><a class="header" href="#night-2">Night 2</a></h2>
 <p>I decided to move all my installations to base fedora again, no atomic. Linux users and wiping their system to install new things go hand in hand.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ryans-software-wishlist"><a class="header" href="#ryans-software-wishlist">Ryan's Software Wishlist</a></h1>
+<p>This is a list of all sorts of various issues in software that intrigues me! Will be filled with more as time goes on.</p>
+<h2 id="wayland--nvidia-nvk-etc--xdg-portals--etc-protocols"><a class="header" href="#wayland--nvidia-nvk-etc--xdg-portals--etc-protocols">Wayland / Nvidia (NVK, etc) / XDG Portals / etc. Protocols</a></h2>
+<ul>
+<li><del>linux-drm-syncobj-v1 https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/90</del></li>
+<li><del>xdg-toplevel-icon-v1 https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/269</del></li>
+<li><del>ext-screencopy-v1 https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/124</del></li>
+</ul>
+<h3 id="chromiumelectron-wayland-by-default"><a class="header" href="#chromiumelectron-wayland-by-default">chromium/electron wayland by default</a></h3>
+<p><a href="https://issues.chromium.org/issues?q=componentid:1456988%20status:(open%20%7C%20new%20%7C%20assigned%20%7C%20accepted)">chromium wayland issue tracking</a></p>
+<h3 id="winewaylanddrv---wine-wayland-drivers"><a class="header" href="#winewaylanddrv---wine-wayland-drivers">winewayland.drv - Wine wayland drivers</a></h3>
+<p><a href="https://gitlab.winehq.org/wine/wine/-/merge_requests?scope=all&amp;state=opened&amp;search=winewayland">winewayland.drv MRs</a></p>
+<h3 id="nvk---nouveau-vulkan-drivers"><a class="header" href="#nvk---nouveau-vulkan-drivers">nvk - Nouveau Vulkan Drivers</a></h3>
+<p><a href="https://gitlab.freedesktop.org/mesa/mesa/-/issues/?label_name%5B%5D=NVK">General nvk issues</a><br />
+<a href="https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests?label_name%5B%5D=NVK">General nvk MRs</a><br />
+<a href="https://gitlab.freedesktop.org/gfxstrand">gfxstrand's activity</a></p>
+<ul>
+<li>full vkd3d-proton support https://gitlab.freedesktop.org/mesa/mesa/-/issues/9479</li>
+<li><del>full zink support https://gitlab.freedesktop.org/mesa/mesa/-/issues/9477</del></li>
+<li><del>full dxvk support https://gitlab.freedesktop.org/mesa/mesa/-/issues/9478</del></li>
+</ul>
+<h3 id="flatpaks-for-my-apps"><a class="header" href="#flatpaks-for-my-apps">Flatpaks for my apps</a></h3>
+<ul>
+<li>steam: https://github.com/ValveSoftware/steam-for-linux/issues/4473</li>
+<li>vscode (issues keep being closed)</li>
+<li>virtualbox https://discourse.flathub.org/t/package-virtualbox/4347</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="a-hrefhttpsgithubcompop-oscosmic-epochcosmic-desktop-environmenta-wishlist"><a class="header" href="#a-hrefhttpsgithubcompop-oscosmic-epochcosmic-desktop-environmenta-wishlist"><a href="https://github.com/pop-os/cosmic-epoch">Cosmic Desktop Environment</a> Wishlist</a></h1>
+<h4 id="iced"><a class="header" href="#iced">Iced</a></h4>
+<ul>
+<li>Adapt pop-os/iced to iced-rs/iced@0.13.1</li>
+</ul>
+<h4 id="xwaylandelectronserver-side-decorations"><a class="header" href="#xwaylandelectronserver-side-decorations">Xwayland/Electron/Server-side decorations</a></h4>
+<ul>
+<li><del>https://github.com/pop-os/cosmic-comp/issues/355</del></li>
+<li><del>https://github.com/pop-os/cosmic-comp/issues/352</del></li>
+<li><del>Blurry xwayland apps (https://github.com/Smithay/smithay/pull/1223)</del></li>
+<li><del>https://github.com/pop-os/cosmic-comp/issues/329</del></li>
+<li><del>https://github.com/pop-os/cosmic-comp/issues/359</del></li>
+</ul>
+<h4 id="other-compositor-issuesfeatures"><a class="header" href="#other-compositor-issuesfeatures">Other compositor issues/features</a></h4>
+<ul>
+<li>https://github.com/pop-os/cosmic-comp/issues/351 https://github.com/Smithay/smithay/pull/1341</li>
+<li>linux-drm-syncobj-v1 https://github.com/Smithay/smithay/pull/1356</li>
+</ul>
+<h4 id="cosmic-workspaces"><a class="header" href="#cosmic-workspaces">COSMIC Workspaces</a></h4>
+<ul>
+<li>workspace overview touchpad gesture</li>
+<li>workspace scrolling in overview</li>
+<li>fix too long names causing weird skinny windows</li>
+<li>workspaces applet shortened mode (only show number to the left and right)</li>
+<li><del>fix lag when opening workspace overview for the first time</del></li>
+<li><del>workspaces icon applet</del></li>
+</ul>
+<h4 id="quality-of-life-changes-needed"><a class="header" href="#quality-of-life-changes-needed">Quality of life changes needed</a></h4>
+<h5 id="workspace-gestures"><a class="header" href="#workspace-gestures">workspace gestures</a></h5>
+<ul>
+<li><del>to/from workspace gestures https://github.com/pop-os/cosmic-comp/pull/342</del></li>
+<li><input disabled="" type="checkbox"/>
+open/close workspace overlay gestures</li>
+</ul>
+<h5 id="various-workspace-fixes"><a class="header" href="#various-workspace-fixes">various Workspace fixes</a></h5>
+<h5 id="other-qol-changes"><a class="header" href="#other-qol-changes">other QOL changes</a></h5>
+<ul>
+<li>Click notification to go to source https://github.com/pop-os/cosmic-applets/issues/223</li>
+<li><del>Icon handling for apps without a desktop entry <a href="https://github.com/flatpak/xdg-desktop-portal/discussions/1305">Solution 1: XDG Portal</a> <a href="https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/269">Solution 2: Wayland Protocol</a></del></li>
+<li><del>Cosmic apps are slow to open https://github.com/pop-os/cosmic-comp/issues/348</del></li>
+<li><del>Drag windows to side or top to maximize or tile right/left https://github.com/pop-os/cosmic-comp/issues/340</del></li>
+<li><del>libcosmic double-click to maximize window (requires double click in iced) https://github.com/pop-os/libcosmic/issues/323</del></li>
+</ul>
+<h4 id="misc-bugs"><a class="header" href="#misc-bugs">misc bugs</a></h4>
+<ul>
+<li>Can't connect to enterprise network https://github.com/pop-os/cosmic-applets/issues/225</li>
+<li><del>Can't unmute mic from audio applet https://github.com/pop-os/cosmic-applets/issues/234</del></li>
+<li><del>No osds https://github.com/pop-os/cosmic-osd/pull/19</del></li>
+</ul>
 
                     </main>
 
