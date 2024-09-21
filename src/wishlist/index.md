@@ -27,5 +27,6 @@ This is a list of all sorts of various issues in software that intrigues me! Wil
 ### Flatpaks for my apps
 
 - steam: https://github.com/ValveSoftware/steam-for-linux/issues/4473
+  - new issue: https://github.com/ValveSoftware/steam-for-linux/issues/4512
 - vscode (issues keep being closed)
 - virtualbox https://discourse.flathub.org/t/package-virtualbox/4347
