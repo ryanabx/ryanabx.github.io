@@ -28,14 +28,14 @@ So far, I used it yesterday and today, and here are my thoughts. I'm still learn
 
 - Soft wrapping is not enabled by default, making long lines annoying to deal with when writing Markdown, for example. Luckily, you can enable this in your config by adding these lines:
 
-- New gripe (10/24/24), no tree-based file browser. This could be solved by this PR though if it ever makes it <https://github.com/helix-editor/helix/pull/11285>, go show your support for it, because for years this issue has been brought up and shot down as too hard to maintain, and now there's an easily maintainable version implemented here!
-
 ```toml
 [editor.soft-wrap]
 enable = true
 ```
 
 For some reason, however, I don't like editing the config too much, even though they make it way easier than any other editor I've used (simply just `config-open`, make your edits, then `config-reload`). Maybe it's some of that philosophy of good defaults that I can clearly see coming from the Helix editor. My config is only the theme, and the soft wrap functionality.
+
+- New gripe (10/24/24), no tree-based file browser. This could be solved by this PR though if it ever makes it <https://github.com/helix-editor/helix/pull/11285>, go show your support for it, because for years this issue has been brought up and shot down as too hard to maintain, and now there's an easily maintainable version implemented here!
 
 Overall, I do enjoy the helix editor, and over time I will probably get good at it. For now, I'm just okay at it, and that's okay. I'm already pretty fast considering how I only learned it yesterday.
 
