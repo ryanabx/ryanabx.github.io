@@ -24,7 +24,11 @@ So far, I used it yesterday and today, and here are my thoughts. I'm still learn
 
 - Not only that, copying and pasting from the system clipboard (`Space + y` and `Space + {p|P}`) is broken on my KDE system. I'm not sure why, and I don't have a bug report here to link. Might look into it later, but running `hx --health` didn't provide any useful information, it claims the clipboard provider is present.
 
+> **EDIT** (10/24/24) In order to get clipboard functionality in wayland on helix, you must install wl-clipboard. Why this isn't better advertised is beyond me, but I have a working clipboard now!
+
 - Soft wrapping is not enabled by default, making long lines annoying to deal with when writing Markdown, for example. Luckily, you can enable this in your config by adding these lines:
+
+- New gripe (10/24/24), no tree-based file browser. This could be solved by this PR though if it ever makes it <https://github.com/helix-editor/helix/pull/11285>, go show your support for it, because for years this issue has been brought up and shot down as too hard to maintain, and now there's an easily maintainable version implemented here!
 
 ```toml
 [editor.soft-wrap]
