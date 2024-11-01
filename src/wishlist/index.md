@@ -12,7 +12,7 @@ This is a list of all sorts of various issues in software that intrigues me! Wil
 [chromium wayland issue tracking](https://issues.chromium.org/issues?q=componentid:1456988%20status:(open%20%7C%20new%20%7C%20assigned%20%7C%20accepted))
 
 ### winewayland.drv - Wine wayland drivers
-[winewayland.drv MRs](https://gitlab.winehq.org/wine/wine/-/merge_requests?scope=all&state=opened&search=winewayland)
+[winewayland.drv MRs](https://gitlab.winehq.org/wine/wine/-/merge_requests?scope=all&search=winewayland&sort=updated_desc&state=opened)
 
 ### nvk - Nouveau Vulkan Drivers
 
