@@ -50,7 +50,7 @@ I should also note that I'm not installing the proprietary Nvidia drivers for th
 
 I'm going to install the vscode flatpak and go to sleep. I will have to solve the virtual machine problem tomorrow, but as a backup I won't hesitate to just use my desktop computer which has my custom image on it.
 
-![Installing vscode](images/installing-vscode.png)
+![Installing vscode](../images/installing-vscode.png)
 
 Already I have run into an issue. `git-lfs` is not installed on the base image. I will have to enter a podman container to initialize git-lfs on this repository, which I'd like to do in order to not track images in an inefficient manner. Alas, I will have to figure out podman containers now.
 
@@ -101,7 +101,7 @@ After installing `gnome-boxes`, which to my knowledge is the only VM software av
 
 My first gripe I've found is that the VM is locked to 1280x800. I don't know why this is, but I will be looking it up to find out. Gnome Boxes should handle this automatically though, I shouldn't have to look it up, but alas that's how Linux works sometimes.
 
-![VM Too smol](images/vm-too-smol.png)
+![VM Too smol](../images/vm-too-smol.png)
 
 Also, touchpad scroll events don't seem to be propagated to the VM, which is very annoying.
 
@@ -113,7 +113,7 @@ Not only does the VM have great resolution now, it also solved my framerate issu
 
 Scrolling was also weirdly fixed after installing the guest utilities? It's weird that so many things required the guest utilities to function properly, but I'm just glad I can get some work done.
 
-![Thanks GNOME Boxes!](images/vm-good-size.png)
+![Thanks GNOME Boxes!](../images/vm-good-size.png)
 
 I need more space on my VM. Normally I would use qemu-img for this, but it's not installed on the base system. Luckily I know that `gnome-boxes` needs qemu to work, so I can just use `qemu-img` from within the flatpak. Here's how I did that:
 
