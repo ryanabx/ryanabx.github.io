@@ -1,3 +1,9 @@
+---
+date: '2024-09-14T13:03:00-06:00'
+draft: false
+title: 'Misadventures With Fedora Atomic'
+---
+
 # ~~Using a Fedora atomic base image for a week~~ Nevermind, using a base image for a few days and then giving up lol
 
 I decided this unmomentous occasion is something I'd like to document, to talk about where the atomic experience could be better, and where it really shines!

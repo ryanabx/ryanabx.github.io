@@ -1,3 +1,8 @@
+---
+title: COSMIC Wishlist
+description: My software wishlist for COSMIC
+---
+
 # [Cosmic Desktop Environment](https://github.com/pop-os/cosmic-epoch) Wishlist
 
 #### Iced

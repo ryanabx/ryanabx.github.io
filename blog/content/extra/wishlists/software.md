@@ -1,3 +1,8 @@
+---
+title: Software Wishlist
+description: My general software wishlist
+---
+
 # Ryan's Software Wishlist
 
 This is a list of all sorts of various issues in software that intrigues me! Will be filled with more as time goes on.

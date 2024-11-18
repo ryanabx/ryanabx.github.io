@@ -1,3 +1,9 @@
+---
+date: '2024-11-18T13:03:19-06:00'
+draft: false
+title: 'Trying Out Helix Editor'
+---
+
 # Trying out Helix Editor
 
 Hey everyone! Time for the (basically monthly) blog!
