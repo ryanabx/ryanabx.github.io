@@ -62,7 +62,7 @@
 &lt;ul>
 &lt;li>bootc - &lt;a href="https://github.com/containers/bootc">https://github.com/containers/bootc&lt;/a>&lt;/li>
 &lt;li>composefs - &lt;a href="https://github.com/containers/composefs">https://github.com/containers/composefs&lt;/a>&lt;/li>
-&lt;li>systemd-sysupdate &lt;a href="https://github.com/systemd/systemd/labels/sysupdate">https://github.com/systemd/systemd/labels/sysupdate&lt;/a>&lt;/li>
+&lt;li>systemd-sysupdate &lt;a href="https://github.com/systemd/systemd/labels/sysupdate">https://github.com/systemd/systemd/labels/sysupdate&lt;/a> &lt;a href="https://github.com/systemd/systemd/pulls?q=is%3Aopen+is%3Apr+label%3Asysupdate">https://github.com/systemd/systemd/pulls?q=is%3Aopen+is%3Apr+label%3Asysupdate&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="wayland--nvidia-nvk-etc--xdg-portals--etc-protocols">Wayland / Nvidia (NVK, etc) / XDG Portals / etc. Protocols&lt;/h2>
 &lt;ul>
