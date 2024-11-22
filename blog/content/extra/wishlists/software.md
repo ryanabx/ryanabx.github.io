@@ -20,7 +20,7 @@ This is a list of all sorts of various issues in software that intrigues me! Wil
 
 - bootc - <https://github.com/containers/bootc>
 - composefs - <https://github.com/containers/composefs>
-- systemd-sysupdate <https://github.com/systemd/systemd/labels/sysupdate>
+- systemd-sysupdate <https://github.com/systemd/systemd/labels/sysupdate> <https://github.com/systemd/systemd/pulls?q=is%3Aopen+is%3Apr+label%3Asysupdate>
 
 ## Wayland / Nvidia (NVK, etc) / XDG Portals / etc. Protocols
 
