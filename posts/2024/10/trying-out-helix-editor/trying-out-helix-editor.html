@@ -1,0 +1,42 @@
+<hr />
+<h2>date: '2024-11-18T13:03:19-06:00'
+draft: false
+title: 'Trying Out Helix Editor'</h2>
+<h1>Trying out Helix Editor</h1>
+<p>Hey everyone! Time for the (basically monthly) blog!</p>
+<p>I've been using Visual Studio Code as my editor of choice since my senior year of undergrad. It's my favorite editor by far, and I've not really thought about changing it since; however, I recently decided to take some time to learn a different way of coding, a way that a lot of people really stand by. The modal way.</p>
+<p>I spent some time looking around at modal editors. I considered NeoVim, but I kinda wanted something new, hip and fresh. I came across the <a href="https://helix-editor.com">Helix Editor</a>. Not only is it modal, but it describes itself as a "Post-Modern <strong>Text Editor</strong>" (And it's written in Rust!).</p>
+<p>On Tuesday, I opened up the Helix Editor and tried to figure out how it works. I've never used modal text editors, and my only experience with one is learning how to <code>:q</code> on Vim. I don't even know if I'd like the modal style of things, since all the editors I've used just are always <code>Insert</code> mode with CTRL+&lt;KEY&gt; hotkeys.</p>
+<p>I noticed that Helix encourages <em>not</em> using the arrow keys, rather, you should use the <code>H</code>, <code>J</code>, <code>K</code>, and <code>L</code> keys to move left, down, up, and right. The arrow keys are supported, but they say if you want a more 'modal' experience, you should disable the arrow keys in insert mode and learn to move outside of insert mode. I'm not sure if I'm quite ready to give up my arrow keys, especially because the mouse is not an option.</p>
+<p>The tutorial in Helix can be accessed by using the <code>:tutor</code> command when you're in the normal mode, helpfully depicted as <code>NOR</code>. The tutorial is pretty long, but it does a good job of telling you helpful hotkeys in order to move around.</p>
+<p>One silly thing I like about Helix is the built-in themes. I can just type <code>:theme &lt;THEME&gt;</code> and turn one of these on. Since I'm coming from Visual Studio Code, the <code>dark_plus</code> theme is just like VSCode, so it feels like home.</p>
+<p>So far, I used it yesterday and today, and here are my thoughts. I'm still learning hotkeys for everything, but here are my biggest gripes so far (nothing I can't work around eventually, just getting used to the workflow).</p>
+<ul>
+<li>
+<p>There's a bug with the C# language server, where if I want to <code>goto definition</code> of a type that's not in my project (through a nuget package, for example), it fails to process the URI. This appears to be a problem of Helix using a URL resolver crate, not a URI resolver crate: <a href="https://github.com/helix-editor/helix/issues/11334">https://github.com/helix-editor/helix/issues/11334</a></p>
+</li>
+<li>
+<p>When I'm in insert mode, I still want better movement abilities, and I find myself instinctively using <code>CTRL</code> + <code>Left arrow</code> to move back a word in insert mode. I'll have to replace that muscle memory with <code>ESC</code> + <code>b</code>. The only problem with that is that other text editors (non-modal) use those <code>CTRL</code> + <code>Arrow keys</code> quite a bit, and I don't want to lose that muscle memory either. It might not matter that much, we will see.</p>
+</li>
+<li>
+<p>When you use <code>p</code> to paste something from the integrated clipboard, it pastes after the cursor, not before. This is different from most of the commands in the editor, and it doesn't make sense why this is different. This is something we can work around thankfully, we just need to use <code>P</code>, but I really feel like those should be switched.</p>
+</li>
+<li>
+<p>Not only that, copying and pasting from the system clipboard (<code>Space + y</code> and <code>Space + {p|P}</code>) is broken on my KDE system. I'm not sure why, and I don't have a bug report here to link. Might look into it later, but running <code>hx --health</code> didn't provide any useful information, it claims the clipboard provider is present.</p>
+</li>
+</ul>
+<blockquote>
+<p><strong>EDIT</strong> (10/24/24) In order to get clipboard functionality in wayland on helix, you must install wl-clipboard. Why this isn't better advertised is beyond me, but I have a working clipboard now!</p>
+</blockquote>
+<ul>
+<li>Soft wrapping is not enabled by default, making long lines annoying to deal with when writing Markdown, for example. Luckily, you can enable this in your config by adding these lines:</li>
+</ul>
+<pre><code class="language-toml">[editor.soft-wrap]
+enable = true
+</code></pre>
+<p>For some reason, however, I don't like editing the config too much, even though they make it way easier than any other editor I've used (simply just <code>config-open</code>, make your edits, then <code>config-reload</code>). Maybe it's some of that philosophy of good defaults that I can clearly see coming from the Helix editor. My config is only the theme, and the soft wrap functionality.</p>
+<ul>
+<li>New gripe (10/24/24), no tree-based file browser. This could be solved by this PR though if it ever makes it <a href="https://github.com/helix-editor/helix/pull/11285">https://github.com/helix-editor/helix/pull/11285</a>, go show your support for it, because for years this issue has been brought up and shot down as too hard to maintain, and now there's an easily maintainable version implemented here!</li>
+</ul>
+<p>Overall, I do enjoy the helix editor, and over time I will probably get good at it. For now, I'm just okay at it, and that's okay. I'm already pretty fast considering how I only learned it yesterday.</p>
+<p>I will provide an update if I continue to use it and end up daily driving it!</p>
