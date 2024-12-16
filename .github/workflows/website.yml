@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - run: cargo install --git https://github.com/ryanabx/simple-ssg.git
-      - run: simple-ssg ./src -o ./out
+      - run: mkdir ./out && simple-ssg ./src -o ./out
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
