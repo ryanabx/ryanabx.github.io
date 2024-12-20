@@ -1,48 +1,84 @@
-<hr />
-<h2>title: Software Wishlist
-description: My general software wishlist</h2>
 <h1>Ryan's Software Wishlist</h1>
-<p>This is a list of all sorts of various issues in software that intrigues me! Will be filled with more as time goes on.</p>
+<p>This is a list of all sorts of various issues and PRs in software that intrigue me! Will be updated with more as time goes on.</p>
+<h2>Support for my hardware</h2>
+<ul>
+<li><a href="https://lore.kernel.org/lkml/20241217230645.15027-1-derekjohn.clark@gmail.com/">Lenovo Legion Linux driver</a></li>
+</ul>
+<h3>NVK - Nouveau Vulkan Drivers</h3>
+<ul>
+<li>
+<p><a href="https://gitlab.freedesktop.org/mesa/mesa/-/issues/?label_name%5B%5D=NVK">General NVK issues</a></p>
+</li>
+<li>
+<p><a href="https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests?label_name%5B%5D=NVK">General NVK MRs</a></p>
+</li>
+<li>
+<p><a href="https://gitlab.freedesktop.org/gfxstrand">gfxstrand's (big NVK contributor) activity</a></p>
+</li>
+<li>
+<p><a href="https://gitlab.freedesktop.org/mesa/mesa/-/issues/9479">full vkd3d-proton support</a></p>
+</li>
+<li>
+<p><del><a href="https://gitlab.freedesktop.org/mesa/mesa/-/issues/9477">full zink support</a></del></p>
+</li>
+<li>
+<p><del><a href="https://gitlab.freedesktop.org/mesa/mesa/-/issues/9478">full dxvk support</a></del></p>
+</li>
+</ul>
+<h3>Nvidia open kernel module</h3>
+<ul>
+<li><a href="https://github.com/NVIDIA/open-gpu-kernel-modules">Nvidia open drivers github</a></li>
+</ul>
+<h3>Nova Nvidia GPU kernel module (rust!!!)</h3>
+<ul>
+<li><a href="https://rust-for-linux.com/nova-gpu-driver">Nova GPU driver Website</a></li>
+</ul>
 <h2>Image-based Operating Systems</h2>
 <h3>Flatpaks for my apps</h3>
 <ul>
-<li>Steam: <a href="https://github.com/ValveSoftware/steam-for-linux/issues/4473">https://github.com/ValveSoftware/steam-for-linux/issues/4473</a>
+<li><a href="https://github.com/ValveSoftware/steam-for-linux/issues/4473">Steam</a>
 <ul>
-<li>new issue: <a href="https://github.com/ValveSoftware/steam-for-linux/issues/4512">https://github.com/ValveSoftware/steam-for-linux/issues/4512</a></li>
+<li><a href="https://github.com/ValveSoftware/steam-for-linux/issues/4512">new issue</a></li>
 </ul>
 </li>
 <li>VSCode (issues keep being closed)</li>
-<li>VirtualBox <a href="https://discourse.flathub.org/t/package-virtualbox/4347">https://discourse.flathub.org/t/package-virtualbox/4347</a></li>
+<li><a href="https://discourse.flathub.org/t/package-virtualbox/4347">VirtualBox</a></li>
 </ul>
 <h3>Other image-based stuff</h3>
 <ul>
-<li>bootc - <a href="https://github.com/containers/bootc">https://github.com/containers/bootc</a></li>
-<li>composefs - <a href="https://github.com/containers/composefs">https://github.com/containers/composefs</a></li>
-<li>systemd-sysupdate <a href="https://github.com/systemd/systemd/labels/sysupdate">https://github.com/systemd/systemd/labels/sysupdate</a> <a href="https://github.com/systemd/systemd/pulls?q=is%3Aopen+is%3Apr+label%3Asysupdate">https://github.com/systemd/systemd/pulls?q=is%3Aopen+is%3Apr+label%3Asysupdate</a></li>
-</ul>
-<h2>Wayland / Nvidia (NVK, etc) / XDG Portals / etc. Protocols</h2>
+<li><a href="https://github.com/containers/bootc%3E">bootc</a></li>
+<li><a href="https://github.com/containers/composefs">composefs</a></li>
+<li><a href="https://github.com/systemd/systemd/labels/sysupdate">systemd-sysupdate</a>
 <ul>
-<li><del>linux-drm-syncobj-v1 <a href="https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/90">https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/90</a></del></li>
-<li><del>xdg-toplevel-icon-v1 <a href="https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/269">https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/269</a></del></li>
-<li><del>ext-screencopy-v1 <a href="https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/124">https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/124</a></del></li>
-<li>ext-workspace <a href="https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/40">https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/40</a></li>
-<li>foreign-toplevel-state <a href="https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/196">https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/196</a></li>
+<li><a href="https://github.com/systemd/systemd/pulls?q=is%3Aopen+is%3Apr+label%3Asysupdate">Pull requests</a></li>
 </ul>
-<h3>Notable MRs that I'm not too interested in</h3>
-<ul>
-<li>ext-zones <a href="https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/264">https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/264</a></li>
+</li>
 </ul>
 <h2>Wayland Adoption</h2>
-<h3>chromium/electron wayland by default</h3>
-<p><a href="https://issues.chromium.org/issues?q=componentid:1456988%20status:(open%20%7C%20new%20%7C%20assigned%20%7C%20accepted)">Chromium wayland issue tracking</a></p>
-<h3>winewayland.drv - Wine wayland drivers</h3>
-<p><a href="https://gitlab.winehq.org/wine/wine/-/merge_requests?scope=all&amp;search=winewayland&amp;sort=updated_desc&amp;state=opened">Wine: winewayland.drv MRs</a></p>
-<h3>nvk - Nouveau Vulkan Drivers</h3>
-<p><a href="https://gitlab.freedesktop.org/mesa/mesa/-/issues/?label_name%5B%5D=NVK">General nvk issues</a><br />
-<a href="https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests?label_name%5B%5D=NVK">General nvk MRs</a><br />
-<a href="https://gitlab.freedesktop.org/gfxstrand">gfxstrand's activity</a></p>
+<h3>Chromium/Electron Wayland by default</h3>
 <ul>
-<li>full vkd3d-proton support <a href="https://gitlab.freedesktop.org/mesa/mesa/-/issues/9479">https://gitlab.freedesktop.org/mesa/mesa/-/issues/9479</a></li>
-<li><del>full zink support <a href="https://gitlab.freedesktop.org/mesa/mesa/-/issues/9477">https://gitlab.freedesktop.org/mesa/mesa/-/issues/9477</a></del></li>
-<li><del>full dxvk support <a href="https://gitlab.freedesktop.org/mesa/mesa/-/issues/9478">https://gitlab.freedesktop.org/mesa/mesa/-/issues/9478</a></del></li>
+<li><a href="https://issues.chromium.org/issues?q=componentid:1456988%20status:(open%20%7C%20new%20%7C%20assigned%20%7C%20accepted)">Chromium-Wayland issue tracking</a>
+<ul>
+<li><a href="https://issues.chromium.org/issues/40083534">Chromium-Wayland big issue</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/electron/electron/pull/35630">Electron PR</a></li>
+</ul>
+<h3>winewayland.drv - Wine wayland drivers</h3>
+<ul>
+<li><a href="https://gitlab.winehq.org/wine/wine/-/merge_requests?scope=all&amp;search=winewayland&amp;sort=updated_desc&amp;state=opened">winewayland.drv MRs</a></li>
+</ul>
+<h2>Wayland Protocols</h2>
+<p>These are protocols I'm excited about for wayland</p>
+<ul>
+<li><del><a href="https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/90">linux-drm-syncobj-v1</a></del></li>
+<li><del><a href="https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/269">xdg-toplevel-icon-v1</a></del></li>
+<li><del><a href="https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/124">ext-screencopy-v1</a></del></li>
+<li><del><a href="https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/40">ext-workspace</a></del></li>
+<li><a href="https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/196">foreign-toplevel-state</a></li>
+</ul>
+<h3>Notable MRs that I'm not too interested in</h3>
+<p>These are protocols I'd rather not see in wayland</p>
+<ul>
+<li><a href="https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/264">ext-zones</a></li>
 </ul>
