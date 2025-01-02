@@ -5,6 +5,7 @@ This is a list of all sorts of various issues and PRs in software that intrigue 
 ## Support for my hardware
 
 - [Lenovo Legion Linux driver](https://lore.kernel.org/lkml/20241217230645.15027-1-derekjohn.clark@gmail.com/)
+  - [V2 patch](https://lore.kernel.org/lkml/20250102004854.14874-1-derekjohn.clark@gmail.com/)
 - [iPhones](https://www.phoronix.com/news/Apple-DWI-Backlight-Linux-v4)
 
 ### NVK - Nouveau Vulkan Drivers
