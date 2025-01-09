@@ -30,8 +30,8 @@ This is a list of all sorts of various issues and PRs in software that intrigue 
 
 ### Flatpaks for my apps
 
-- [Steam](https://github.com/ValveSoftware/steam-for-linux/issues/4473)
-  - [new issue](https://github.com/ValveSoftware/steam-for-linux/issues/4512)
+- [Old tracker (broken link)](https://github.com/ValveSoftware/steam-for-linux/issues/4473)
+  - [New tracker](https://github.com/ValveSoftware/steam-for-linux/issues/11620)
 - VSCode (issues keep being closed)
 - [VirtualBox](https://discourse.flathub.org/t/package-virtualbox/4347)
 
