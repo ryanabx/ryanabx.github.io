@@ -52,6 +52,7 @@ This is a list of all sorts of various issues and PRs in software that intrigue 
 
 ### winewayland.drv - Wine wayland drivers
 - [winewayland.drv MRs](https://gitlab.winehq.org/wine/wine/-/merge_requests?scope=all&search=winewayland&sort=updated_desc&state=opened)
+- [Proton wayland](https://github.com/ValveSoftware/Proton/issues/4638)
 
 ## Wayland Protocols
 
