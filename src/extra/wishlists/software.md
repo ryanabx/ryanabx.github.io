@@ -57,6 +57,8 @@ This is a list of all sorts of various issues and PRs in software that intrigue 
 
 ## Wayland Protocols
 
+- [Merge requests](https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests?sort=updated_desc)
+
 These are protocols I'm excited about for wayland
 
 - ~~[linux-drm-syncobj-v1](https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/90)~~
