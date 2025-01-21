@@ -53,6 +53,7 @@ This is a list of all sorts of various issues and PRs in software that intrigue 
 ### winewayland.drv - Wine wayland drivers
 - [winewayland.drv MRs](https://gitlab.winehq.org/wine/wine/-/merge_requests?scope=all&search=winewayland&sort=updated_desc&state=opened)
 - [winewayland issues](https://bugs.winehq.org/buglist.cgi?component=winewayland&order=changeddate%20DESC%2Cbug_status%2Cpriority%2Cassigned_to%2Cbug_id&product=Wine&query_based_on=&query_format=advanced&resolution=---)
+  - [Cross process rendering not supported](https://bugs.winehq.org/show_bug.cgi?id=56014#c1)
 - [Proton wayland](https://github.com/ValveSoftware/Proton/issues/4638)
 
 ## Wayland Protocols
