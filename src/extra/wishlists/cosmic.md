@@ -7,7 +7,7 @@ description: My software wishlist for COSMIC
 
 #### Iced
 
-- Adapt pop-os/iced to iced-rs/iced@0.13.1
+- ~~Adapt pop-os/iced to iced-rs/iced@0.13.1~~
 
 #### Xwayland/Electron/Server-side decorations
 
