@@ -67,6 +67,7 @@ These are protocols I'm excited about for wayland
 - ~~[ext-screencopy-v1](https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/124)~~
 - ~~[ext-workspace](https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/40)~~
 - [foreign-toplevel-state](https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/196)
+- [xdg-pip](https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/132)
 
 ### Notable MRs that I'm not too interested in
 
