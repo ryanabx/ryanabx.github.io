@@ -18,12 +18,5 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - run: cargo install --git https://github.com/ryanabx/simple-ssg.git
-      - run: simple-ssg ./src ./out
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
+      - run: python3 -m pip install mkdocs
+      - run: mkdocs gh-deploy
