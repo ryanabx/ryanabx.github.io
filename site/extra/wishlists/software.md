@@ -5,8 +5,8 @@ This is a list of all sorts of various issues and PRs in software that intrigue 
 ## Support for my hardware
 
 - [Lenovo Legion Linux driver](https://lore.kernel.org/lkml/20241217230645.15027-1-derekjohn.clark@gmail.com/)
-  - [V2 patch](https://lore.kernel.org/lkml/20250102004854.14874-1-derekjohn.clark@gmail.com/)
-  - [Working branch](https://github.com/pastaq/linux/tree/pastaq/lenovo-wmi-for-next)
+    - [V2 patch](https://lore.kernel.org/lkml/20250102004854.14874-1-derekjohn.clark@gmail.com/)
+    - [Working branch](https://github.com/pastaq/linux/tree/pastaq/lenovo-wmi-for-next)
 - [iPhones](https://www.phoronix.com/news/Apple-DWI-Backlight-Linux-v4)
 
 ### NVK - Nouveau Vulkan Drivers
@@ -32,8 +32,8 @@ This is a list of all sorts of various issues and PRs in software that intrigue 
 ### Flatpaks for my apps
 
 - Steam
-  - [Old tracker (broken link)](https://github.com/ValveSoftware/steam-for-linux/issues/4473)
-  - [New tracker](https://github.com/ValveSoftware/steam-for-linux/issues/11620)
+    - [Old tracker (broken link)](https://github.com/ValveSoftware/steam-for-linux/issues/4473)
+    - [New tracker](https://github.com/ValveSoftware/steam-for-linux/issues/11620)
 - VSCode (issues keep being closed)
 - [VirtualBox](https://discourse.flathub.org/t/package-virtualbox/4347)
 
@@ -42,19 +42,19 @@ This is a list of all sorts of various issues and PRs in software that intrigue 
 - [bootc](https://github.com/containers/bootc)
 - [composefs](https://github.com/containers/composefs)
 - [systemd-sysupdate](https://github.com/systemd/systemd/labels/sysupdate)
-  - [Pull requests](https://github.com/systemd/systemd/pulls?q=is%3Aopen+is%3Apr+label%3Asysupdate)
+    - [Pull requests](https://github.com/systemd/systemd/pulls?q=is%3Aopen+is%3Apr+label%3Asysupdate)
 
 ## Wayland Adoption
 
 ### Chromium/Electron Wayland by default
 - [Chromium-Wayland issue tracking](https://issues.chromium.org/issues?q=componentid:1456988%20status:(open%20%7C%20new%20%7C%20assigned%20%7C%20accepted))
-  - [Chromium-Wayland big issue](https://issues.chromium.org/issues/40083534)
+    - [Chromium-Wayland big issue](https://issues.chromium.org/issues/40083534)
 - [Electron PR](https://github.com/electron/electron/pull/35630)
 
 ### winewayland.drv - Wine wayland drivers
 - [winewayland.drv MRs](https://gitlab.winehq.org/wine/wine/-/merge_requests?scope=all&search=winewayland&sort=updated_desc&state=opened)
 - [winewayland issues](https://bugs.winehq.org/buglist.cgi?component=winewayland&order=changeddate%20DESC%2Cbug_status%2Cpriority%2Cassigned_to%2Cbug_id&product=Wine&query_based_on=&query_format=advanced&resolution=---)
-  - [Cross process rendering not supported](https://bugs.winehq.org/show_bug.cgi?id=56014#c1)
+    - [Cross process rendering not supported](https://bugs.winehq.org/show_bug.cgi?id=56014#c1)
 - [Proton wayland](https://github.com/ValveSoftware/Proton/issues/4638)
 
 ## Wayland Protocols
