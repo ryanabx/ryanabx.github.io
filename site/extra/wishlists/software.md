@@ -55,6 +55,8 @@ This is a list of all sorts of various issues and PRs in software that intrigue 
 ### Chromium/Electron Wayland by default
 - [Chromium-Wayland issue tracking](https://issues.chromium.org/issues?q=componentid:1456988%20status:(open%20%7C%20new%20%7C%20assigned%20%7C%20accepted))
     - [Chromium-Wayland big issue](https://issues.chromium.org/issues/40083534)
+- [Orko Garai's Blog](https://garai.ca/)
+- [Nick Diego's Blog](https://nickdiego.dev/)
 - [Electron PR](https://github.com/electron/electron/pull/35630)
 
 ### winewayland.drv - Wine wayland drivers
