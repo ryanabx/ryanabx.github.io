@@ -29,6 +29,12 @@ This is a list of all sorts of various issues and PRs in software that intrigue 
 
 ## Image-based Operating Systems
 
+### Flatpak enablement
+
+- [A way to access the root filesystem from a flatpak](https://github.com/flatpak/flatpak/pull/6125)
+- [Libraries portal](https://github.com/flatpak/xdg-desktop-portal/discussions/1301)
+    - [My response](https://github.com/flatpak/xdg-desktop-portal/discussions/1647)
+
 ### Flatpaks for my apps
 
 - Steam
