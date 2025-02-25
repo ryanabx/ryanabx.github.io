@@ -1,3 +1,4 @@
-site_name: Ryan Brue's Website
-docs_dir: site
-site_dir: out
+site_name: Ryan Brue (ryanabx)
+theme:
+  name: readthedocs
+  color_mode: auto
