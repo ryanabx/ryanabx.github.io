@@ -9,6 +9,11 @@ This is a list of all sorts of various issues and PRs in software that intrigue 
     - [Working branch](https://github.com/pastaq/linux/tree/pastaq/lenovo-wmi-for-next)
 - [iPhones](https://www.phoronix.com/news/Apple-DWI-Backlight-Linux-v4)
 
+### OnePlus 6t - Mobile Linux (postmarketOS)
+
+- [pmaports MRs](https://gitlab.postmarketos.org/postmarketOS/pmaports/-/merge_requests)
+- [pmbootstrap MRs](https://gitlab.postmarketos.org/postmarketOS/pmbootstrap/-/merge_requests)
+
 ### NVK - Nouveau Vulkan Drivers
 
 - [General NVK issues](https://gitlab.freedesktop.org/mesa/mesa/-/issues/?label_name%5B%5D=NVK)  
