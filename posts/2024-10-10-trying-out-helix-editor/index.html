@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Trying Out Helix Editor - Ryan Brue (ryanabx)</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Trying Out Helix Editor";
+        var mkdocs_page_input_path = "posts/2024-10-10-trying-out-helix-editor.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Ryan Brue (ryanabx)
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">About Me</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Posts</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../2024-08-20-my-first-post/">My First Post</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../2024-09-14-misadventures-with-fedora-atomic/">Misadventures With Fedora Atomic</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Trying Out Helix Editor</a>
+    <ul class="current">
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Wishlists</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../wishlists/01-software/">Ryan's Software Wishlist</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../wishlists/02-cosmic/">Cosmic Desktop Environment Wishlist</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Ryan Brue (ryanabx)</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Posts</li>
+      <li class="breadcrumb-item active">Trying Out Helix Editor</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="trying-out-helix-editor">Trying out Helix Editor</h1>
+<p>Hey everyone! Time for the (basically monthly) blog!</p>
+<p>I've been using Visual Studio Code as my editor of choice since my senior year of undergrad. It's my favorite editor by far, and I've not really thought about changing it since; however, I recently decided to take some time to learn a different way of coding, a way that a lot of people really stand by. The modal way.</p>
+<p>I spent some time looking around at modal editors. I considered NeoVim, but I kinda wanted something new, hip and fresh. I came across the <a href="https://helix-editor.com">Helix Editor</a>. Not only is it modal, but it describes itself as a "Post-Modern <strong>Text Editor</strong>" (And it's written in Rust!).</p>
+<p>On Tuesday, I opened up the Helix Editor and tried to figure out how it works. I've never used modal text editors, and my only experience with one is learning how to <code>:q</code> on Vim. I don't even know if I'd like the modal style of things, since all the editors I've used just are always <code>Insert</code> mode with CTRL+\&lt;KEY&gt; hotkeys.</p>
+<p>I noticed that Helix encourages <em>not</em> using the arrow keys, rather, you should use the <code>H</code>, <code>J</code>, <code>K</code>, and <code>L</code> keys to move left, down, up, and right. The arrow keys are supported, but they say if you want a more 'modal' experience, you should disable the arrow keys in insert mode and learn to move outside of insert mode. I'm not sure if I'm quite ready to give up my arrow keys, especially because the mouse is not an option.</p>
+<p>The tutorial in Helix can be accessed by using the <code>:tutor</code> command when you're in the normal mode, helpfully depicted as <code>NOR</code>. The tutorial is pretty long, but it does a good job of telling you helpful hotkeys in order to move around.</p>
+<p>One silly thing I like about Helix is the built-in themes. I can just type <code>:theme &lt;THEME&gt;</code> and turn one of these on. Since I'm coming from Visual Studio Code, the <code>dark_plus</code> theme is just like VSCode, so it feels like home.</p>
+<p>So far, I used it yesterday and today, and here are my thoughts. I'm still learning hotkeys for everything, but here are my biggest gripes so far (nothing I can't work around eventually, just getting used to the workflow).</p>
+<ul>
+<li>
+<p>There's a bug with the C# language server, where if I want to <code>goto definition</code> of a type that's not in my project (through a nuget package, for example), it fails to process the URI. This appears to be a problem of Helix using a URL resolver crate, not a URI resolver crate: <a href="https://github.com/helix-editor/helix/issues/11334">https://github.com/helix-editor/helix/issues/11334</a></p>
+</li>
+<li>
+<p>When I'm in insert mode, I still want better movement abilities, and I find myself instinctively using <code>CTRL</code> + <code>Left arrow</code> to move back a word in insert mode. I'll have to replace that muscle memory with <code>ESC</code> + <code>b</code>. The only problem with that is that other text editors (non-modal) use those <code>CTRL</code> + <code>Arrow keys</code> quite a bit, and I don't want to lose that muscle memory either. It might not matter that much, we will see.</p>
+</li>
+<li>
+<p>When you use <code>p</code> to paste something from the integrated clipboard, it pastes after the cursor, not before. This is different from most of the commands in the editor, and it doesn't make sense why this is different. This is something we can work around thankfully, we just need to use <code>P</code>, but I really feel like those should be switched.</p>
+</li>
+<li>
+<p>Not only that, copying and pasting from the system clipboard (<code>Space + y</code> and <code>Space + {p|P}</code>) is broken on my KDE system. I'm not sure why, and I don't have a bug report here to link. Might look into it later, but running <code>hx --health</code> didn't provide any useful information, it claims the clipboard provider is present.</p>
+</li>
+</ul>
+<blockquote>
+<p><strong>EDIT</strong> (10/24/24) In order to get clipboard functionality in wayland on helix, you must install wl-clipboard. Why this isn't better advertised is beyond me, but I have a working clipboard now!</p>
+</blockquote>
+<ul>
+<li>Soft wrapping is not enabled by default, making long lines annoying to deal with when writing Markdown, for example. Luckily, you can enable this in your config by adding these lines:</li>
+</ul>
+<pre><code class="language-toml">[editor.soft-wrap]
+enable = true
+</code></pre>
+<p>For some reason, however, I don't like editing the config too much, even though they make it way easier than any other editor I've used (simply just <code>config-open</code>, make your edits, then <code>config-reload</code>). Maybe it's some of that philosophy of good defaults that I can clearly see coming from the Helix editor. My config is only the theme, and the soft wrap functionality.</p>
+<ul>
+<li>New gripe (10/24/24), no tree-based file browser. This could be solved by this PR though if it ever makes it <a href="https://github.com/helix-editor/helix/pull/11285">https://github.com/helix-editor/helix/pull/11285</a>, go show your support for it, because for years this issue has been brought up and shot down as too hard to maintain, and now there's an easily maintainable version implemented here!</li>
+</ul>
+<p>Overall, I do enjoy the helix editor, and over time I will probably get good at it. For now, I'm just okay at it, and that's okay. I'm already pretty fast considering how I only learned it yesterday.</p>
+<p>I will provide an update if I continue to use it and end up daily driving it!</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../2024-09-14-misadventures-with-fedora-atomic/" class="btn btn-neutral float-left" title="Misadventures With Fedora Atomic"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../wishlists/01-software/" class="btn btn-neutral float-right" title="Ryan's Software Wishlist">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../2024-09-14-misadventures-with-fedora-atomic/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../wishlists/01-software/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
